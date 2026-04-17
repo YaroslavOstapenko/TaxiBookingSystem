@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "TaxiBookingSystem.Controllers.BookingController",
+    "Method": "Delete",
+    "RelativePath": "api/bookings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxiBookingSystem.Controllers.BookingController",
+    "Method": "Cancel",
+    "RelativePath": "api/bookings/{id}/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxiBookingSystem.Controllers.BookingController",
+    "Method": "Confirm",
+    "RelativePath": "api/bookings/{id}/confirm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxiBookingSystem.Controllers.BookingController",
+    "Method": "GetAll",
+    "RelativePath": "api/bookings/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxiBookingSystem.Controllers.BookingController",
+    "Method": "Create",
+    "RelativePath": "api/bookings/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "TaxiBookingSystem.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxiBookingSystem.Controllers.BookingController",
+    "Method": "Simulate",
+    "RelativePath": "api/bookings/simulate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
