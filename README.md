@@ -63,3 +63,7 @@ CREATE TABLE bookings (
     status VARCHAR(20) DEFAULT 'PENDING',
     version INT DEFAULT 0
 );
+```
+
+## 📺 Live Demo
+[Watch the project walk-through on YouTube](https://youtu.be/w4cQpBo1xz0)
