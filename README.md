@@ -1,6 +1,5 @@
 # 🚕 Taxi Booking Management System
 
-![Status](https://img.shields.io/badge/Status-Active-success)
 ![Backend](https://img.shields.io/badge/Backend-ASP.NET_Core_8.0-blueviolet)
 ![Frontend](https://img.shields.io/badge/Frontend-React_18-blue)
 ![Database](https://img.shields.io/badge/Database-MySQL-orange)
